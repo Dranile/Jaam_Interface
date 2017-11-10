@@ -1,0 +1,20 @@
+{
+  "name": "jaam_web",
+  "version": "1.0.0",
+  "description": "Interface utilisateur du projet Jaam",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.6.0",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
