@@ -1,4 +1,9 @@
-Initialiser npm :
+## description
+Ce repositorie est une ébauche de l'interface graphique lié au projet : https://github.com/Garad1/jaam
+
+## Installation et build
+
+Pour installer les modules:
 ```
 npm install
 ```
