@@ -1,5 +1,5 @@
 @charset 'utf-8';
-@import '../node_modules/normalize.css/normalize.css';
+@import '../node_modules/normalize.css/normalize';
 /**
  * ======================================================
  *                          Variable
@@ -7,6 +7,7 @@
  */
 $font-size: 16px;
 $background-color: #f5f5f0;
+$background-color-header: white;
 $font-family: sans-serif;
 $header-height: 56px;
 $content-margin: 0px 8%;
@@ -39,7 +40,7 @@ header{
 	/*border-bottom: 1px solid black;*/
 	display: flex;
 	justify-content: center;
-	background-color: white;
+	background-color: $background-color-header;
 }
 
 header .title{
@@ -60,6 +61,7 @@ div.content{
 		background-color: $background-color-element;
 		border-radius:15px;
 		margin-top:15px;
+		box-shadow: 2px 2px 5px grey;
 
 		&>h3{
 			padding: 15px;
