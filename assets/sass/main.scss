@@ -16,10 +16,6 @@ main {
 	  }
 }
 
-main .jaam-container {
-	margin:0px 16px;
-}
-
 .collection {
 	margin-top:0px;
 }
@@ -32,8 +28,8 @@ main .jaam-container {
 	cursor: pointer;
 	
 	& > .card-title{
-		padding-left: 24px;
-		padding-right: 24px;
+		padding-left: $card-padding;
+		padding-right: $card-padding;
 		display: flex;
 		justify-content: space-between;
 		align-items:center;
