@@ -10,10 +10,10 @@ npm install
 
 Lancer le build du css :
 ```
-npm run build-css
+npm run build
 ```
 
 Pour compiler automatiquement à chaque sauvegarde :
 ```
-npm run watch-css
+npm run watch
 ```
