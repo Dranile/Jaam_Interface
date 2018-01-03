@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+@import '~materialize-css/sass/components/_color.scss';
+
+/**
+ * Variables ?
+ */
+
+@import '~materialize-css/sass/materialize';
+
+
+main {
+	margin-left: 300px;
+	@media #{$medium-and-down} {
+	    margin-left: 0px;
+	  }
+}
+
+.collection {
+	margin-top:0px;
+}
+
+.searched-word{
+	font-weight: bold;
+}
+
+.accordion{
+	cursor: pointer;
+	
+	& > .card-title{
+		padding-left: $card-padding;
+		padding-right: $card-padding;
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+
+		& > i{
+			transition: transform 0.4s;
+			transform: rotate(90deg);
+		}
+	}
+
+	&.hidden{
+		padding-bottom: 0px;
+
+		& > .card-title > i{
+			transform: rotate(0deg);
+		}	
+	}
+}
