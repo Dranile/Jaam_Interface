@@ -2,24 +2,43 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="public/css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="public/main.css">
 	<title>Patate</title>
 </head>
 <body>
 	<header>
-		<h1 class="title">Jaam</h1>
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#!" class="brand-logo center">Jaam</a>
+		      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		 	</div>
+		</nav>
 	</header>
-	<div class="content">
-		<div>
-			<div class="left-pannel"></div>
-		</div>
-		<p class="wordSearched">Mot recherché : <span>Patate</span></p>
-		<div class="specification">
-			
-		</div>
-		<div class="description">
-			<h3>Description : </h3>
-			<p>
+	<main>
+		<ul class="side-nav fixed" id="nav-mobile">
+			<div class="collection">
+		        <a href="#" class="collection-item">RelationType</a>
+		        <a href="#" class="collection-item">RelationType</a>
+		        <a href="#" class="collection-item">RelationType</a>
+		        <a href="#" class="collection-item">RelationType</a>
+		        <a href="#" class="collection-item">RelationType</a>
+	    	</div>
+    	</ul>
+		<div class="jaam-container">
+			<h5 class="wordSearched">Mot recherché : <span class="searched-word">Patate</span></h5>
+			<div class="description">
+				<div class="card hoverable">
+					<div class="accordion">
+						<div class="card-title section">
+							<span class="">Description</span>
+							<i class="material-icons">chevron_right</i>
+						</div>
+						<div class="divider"></div>
+					</div>
+					<div class="card-content">
+						<p>
 1. (Botanique) Patate douce (plante).
  Les feuilles de la patate douce se consomment comme des épinards, contrairement à celles de la pomme de terre qui sont toxiques.  <br />
 2. (Par analogie) (Familier) ou (Canada) Pomme de terre.
@@ -36,43 +55,54 @@
 6. (Par métonymie) Racine comestible de cette plante.<br /> 
  À côté de la case s'élevaient les magasins qui renfermaient les provisions du chef, sa récolte de phormium, de patates, de taros, de fougères comestibles.    
  (Jules Verne, Les Enfants du capitaine Grant, 1846)
-			</p>
-		</div>
-		<div class="relations">
-			<h3>Relations :</h3>
-			<div>
-				<div>
-					<h4>Entrante</h4>
-					<ul>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						
-					</ul>
+						</p>
+					</div>
 				</div>
-				<div>
-					<h4>Sortante</h4>
-					<ul>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-						<li><a href="#">Lorem ipsum</a></li>
-					</ul>
+			</div>
+			<div class="relations">
+				<div class="card hoverable">
+						<div class="accordion">
+							<div class="card-title section">
+								<span class="">RelationType</span>
+								<i class="material-icons">chevron_right</i>
+							</div>
+							<div class="divider"></div>
+						</div>
+						<div class="card-content">
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+							<a href="#">mot</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 	<footer>
 
-	</footer>	
+	</footer>
+	<script src="public/main.js"></script>
 </body>
 </html>
